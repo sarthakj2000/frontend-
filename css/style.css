@@ -1,0 +1,115 @@
+.navbar {
+  border-bottom: #008ed6 3px solid;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+#video-play {
+  border: 15px solid black;
+  height: 200px;
+  border-radius: 20px;
+  border-color: #233067;
+}
+.display-4 {
+  font-family: 'Ubuntu', sans-serif;
+}
+.video {
+  min-height: 200px;
+  position: relative;
+  background: url('../img/1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+.video-2 {
+  min-height: 400px;
+  position: relative;
+  background: url('../img/teacher.jpg');
+  background-repeat: no-repeat;
+  background-size: 700px;
+  text-align: center;
+  color: #fff;
+}
+.video-3 {
+  min-height: 400px;
+  position: relative;
+  background: url('../img/student.jpg');
+  background-repeat: no-repeat;
+  background-size: 700px;
+  text-align: center;
+  color: #fff;
+}
+.bor {
+  border: 3px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: 'Grandstander', cursive;
+  padding-top: 10px;
+}
+.dark-overlay {
+  background: url('https://st2.depositphotos.com/2612859/6217/i/950/depositphotos_62174195-stock-photo-set-of-hatched-colourful-circles.jpg');
+}
+.bar {
+  width: 250px;
+}
+#doubts-section,
+#live-section {
+  min-height: 700px;
+}
+
+#work-section,
+#subject-section {
+  height: 90vh;
+  padding-top: 100px;
+}
+.para p {
+  font-size: 20px;
+}
+#jee-section {
+  min-height: 700px;
+  padding-top: 100px;
+}
+.play {
+  padding-top: 90px;
+}
+#book-section,
+#tutor-section {
+  height: 90vh;
+  margin-bottom: auto;
+}
+#student-section {
+  height: 90vh;
+}
+@media (min-width: 333px) and (max-width: 517px) {
+  .bar {
+    margin: 10px;
+  }
+  .display-4,
+  .headi {
+    font-size: 30px;
+  }
+  .web,
+  .board {
+    display: none;
+  }
+  #doubts-section {
+    min-height: 100px;
+  }
+  .work {
+    height: 64px;
+  }
+  #work-section {
+    min-height: 300px !important;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  .head {
+    font-size: 50px;
+  }
+}
